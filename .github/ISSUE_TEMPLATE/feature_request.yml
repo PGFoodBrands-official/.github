@@ -1,0 +1,32 @@
+name: Feature request
+description: Propose a change or new capability for this repository
+title: "[Feature]: "
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or opportunity
+      description: What user or operational need should be addressed?
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Desired outcome
+      description: Describe the behavior or result you want, including acceptance criteria where possible.
+    validations:
+      required: true
+  - type: textarea
+    id: approach
+    attributes:
+      label: Suggested approach
+      description: Share a proposed implementation, alternatives considered, or relevant examples.
+    validations:
+      required: false
+  - type: textarea
+    id: impact
+    attributes:
+      label: Operational impact
+      description: Note expected effects on deployment, configuration, permissions, data, cost, or support.
+    validations:
+      required: false
