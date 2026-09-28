@@ -8,11 +8,23 @@
 
 ## Validation
 
-<!-- List the checks run and their results. Include manual verification where relevant. -->
+<!-- List checks completed before merge and their results. Do not present a plan or build as a successful deployment. -->
 
-## Operational impact
+## Rollout and operational impact
 
-<!-- Describe deployment, migration, permissions, configuration, monitoring, and rollback considerations. Write "None" when not applicable. -->
+<!-- Replace this section with "None" when not applicable. Do not include sensitive values. -->
+
+- Target environment and affected components:
+- Release order and dependencies:
+- Separate manual steps, such as migrations or jobs:
+- Rollback or recovery:
+
+## Post-deployment verification
+
+<!-- Replace this section with "None" when not applicable. Keep this distinct from pre-merge validation. -->
+
+- Check and expected result:
+- Where the actual outcome will be recorded:
 
 ## Checklist
 
@@ -21,3 +33,4 @@
 - [ ] No secrets, credentials, personal data, or production exports are included.
 - [ ] Documentation and operational steps are updated, or are not required.
 - [ ] Deployment and rollback considerations are documented, or are not required.
+- [ ] Post-deployment verification is defined, or is not required.
